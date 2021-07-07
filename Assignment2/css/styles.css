@@ -1,0 +1,60 @@
+#background {
+    background-color: #111111;
+}
+
+h1 {
+    color:  #FFFF00;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Dancing Script';
+}
+
+p {
+    color: #fff;
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Indie Flower';
+    font-weight: 900;
+    letter-spacing: .11em;
+
+}
+
+#img-container {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #ff9900;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#button-container {
+    height: 100px;
+    position: relative;
+}
+
+button {
+    color: #111111;
+    font-family: 'Lobster';
+    font-size: 3vw;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FFFF00;
+    padding: 20px 60px 20px 60px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,27 @@
+Color Palette: 
+    Primary: #111111 cmyk(0%, 0%, 0%, 93%)
+    Secondary: #ff9900 cmyk(0%, 40%, 100%, 0%)
+    Accent: #FFFF00 cmyk(0%, 0%, 100%, 0%)
+
+Background Color: Primary
+
+Header Color: Accent
+Font: Dancing Script
+Font-size: 5vw
+
+Image Container:
+Background Color: Secondary
+
+Paragraph Color: White
+Font: Indie Flower
+Font-size: 2vw
+Font-Weight: 900
+Kerning: .11em
+
+Button:
+Font: Lobster
+Background Color: Accent
+Font-Color: Primary
+Font-Size: 3vw
+
+Footer Color: Same as Paragraph
