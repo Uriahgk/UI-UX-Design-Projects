@@ -1,0 +1,60 @@
+#NavBar {
+  background-color: #707070; 
+  display: inline-block;
+  word-spacing: 60px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  border-bottom: 20px solid #fa70c4;
+}
+
+#logo {
+    font-size: 36pt;
+    color:  #fa70c4;
+    font-family: 'Anton';
+}
+
+a {
+    text-decoration: none;
+    font-family: arial bold;
+    color: white;
+    font-size: 24pt;
+}
+
+#HOME {
+    background-color: #707070; 
+    width: 100%;
+}
+
+img {
+    margin-left: 300px;
+    padding-bottom: 10px;
+}
+
+#ABOUT {
+    padding-top: 20px;
+    background-color: #0d6db5;
+}
+
+h1 {
+    text-align: center;
+    color: #fa70c4;
+    font-family: arial bold;
+}
+
+.wrap {
+    margin-left: 450px;
+    margin-right: 400px;
+    padding-bottom: 80px;
+}
+
+p {
+    color: #fa70c4;
+}
+
+#FOOTER {
+    text-align: center;
+    background-color: #707070;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}

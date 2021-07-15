@@ -1,0 +1,42 @@
+#NavBar {
+    background-color: #707070; 
+    word-spacing: 60px;
+    border-bottom: 20px solid #fa70c4;
+  }
+
+#logo {
+    font-size: 36pt;
+    color:  #fa70c4;
+    font-family: 'Anton';
+}
+
+.nav-item {
+    text-decoration: none;
+    font-family: arial bold;
+    color: white;
+    font-size: 24pt;
+}
+
+#HOME {
+    background-color: #707070; 
+}
+
+#ABOUT {
+    background-color: #0d6db5;
+}
+
+h1 {
+    text-align: center;
+    color: #fa70c4;
+    font-family: arial bold;
+}
+
+p {
+    color: #fa70c4;
+    width:450px;
+}
+
+#FOOTER {
+    background-color: #707070;
+    width: 100%;
+}
