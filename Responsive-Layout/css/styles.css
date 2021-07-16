@@ -1,0 +1,18 @@
+#NavBar {
+    border-bottom: 20px solid #D9534F;
+}
+
+#logo {
+    font-size: 3em;
+    font-family: 'Anton';
+}
+
+.nav-item {
+    text-decoration: none;
+    font-family: arial bold;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: arial bold;
+}
