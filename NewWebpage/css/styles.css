@@ -18,13 +18,6 @@ body {
     left: 47%;
 }
 
-
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
 .bg-img {
     background-image: url('../images/GC.jpeg');
     margin-top: 0px;
