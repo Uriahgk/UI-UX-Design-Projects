@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>Canyon Hikers</title>
+    </head>
+    <body>
+        
+        <!-- NAV -->
+        <div class="Navbar">
+            <div class="logo-container">
+                <img id="logo" src="images/CanyonHikersLogo2.png" alt="logo">
+            </div>
+            <div class="nav-container">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#book">BOOK</a>
+            </div>
+        </div>
+        <!-- /NAV -->
+
+        <!-- HOME -->
+        <div id="home" class="bg-img">
+            <div class="img-text">
+                <h1 class="home-text">Grand Canyon</h1>
+                <p class="home-p">Get a tour of the Grand Canyon today!</p>
+            </div>
+            <div class="container">
+                <div class="vertical-center">
+                    <audio id="sound"><source src="sound/bell_small_002.mp3" type="audio/mp3"></audio>
+                    <button onclick="play()" type="submit">Book A Tour!</button>
+                </div>
+              </div>
+        </div>
+        <!-- /HOME -->
+
+        <!-- ABOUT -->
+        <div id="about" class="about-container">
+            <h1 class="about-text">ABOUT US</h1>
+            <div class="col-left">
+                <img id="hikers" src="images/hikers.jpeg" alt="hikers">
+            </div>
+            <div class="col-right">
+                <p class="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gida</p>
+            </div>
+        </div>
+        <!-- /ABOUT -->
+
+        <!-- BOOK -->
+        <div id="book" class="book-container">
+            <h1 class="book-text">Why the Grand Canyon?</h1>
+            <div class="altcol-left">
+                <img id="GC2" src="images/GC2.jpeg" alt="grand canyon">
+            </div>
+            <div class="altcol-right">
+                <p class="book-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gida</p>
+            </div>
+            <div class="containerB">
+                <div class="vertical-centerB">
+                    <button class="wobble-hor-bottom" onclick="play()" type="submit">Book A Tour!</button>
+                </div>
+            </div>
+        </div>
+        <!-- /BOOK -->
+
+        <script src="js/sound.js"></script>
+    </body>
+</html>
